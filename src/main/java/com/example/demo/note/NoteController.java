@@ -16,6 +16,6 @@ public class NoteController {
     @RequestMapping
     public List<Note> getAllNotes() {
         return noteRepository.findAll();
+        
     }
-
 }
